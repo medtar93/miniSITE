@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS document */
+
+/* ma première feuille de style externe  */
+
+/* des style tout simple pour visualiser les div */
+.taille_police{
+    font-size: xx-large.
+}
+.fond_orange {
+    background: orange;
+}
+.fond_rouge{
+    background: red;
+}
+.fond_vert{
+    background: greenyellow;
+}
+.fond_bleu_azur{
+    background: rgb(28, 179, 179);
+}
+.fond_violet{
+    background: rgb(78, 44, 105)
+}
+
+/* les styles de la page */
+
+body{
+    margin:auto; /* margin c'est la marge extérieur d'un élément */
+    background-color:rgb(236, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+div{
+    background-color: darkgreen;
+}
+nav{
+    font-size: xx-large;
+}
+footer{
+    background-color: blue;
+}
+#main {
+    background-color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    width: 700px;
+    float: right;
+}
+/* l'emballage de toute la page */
+#wrapper{  
+    width: 1000px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0px solid rgb(11, 171, 211);
+}
+
+/* le haut de page */
+header{
+    height: 238px;
+    /* hauteur de l'élément */
+    border: 3px solid whitesmoke;
+}
+/* lecôté de la page */
+aside
+    {   
+        width: 300px;
+        height: 313.767px;
+        /* largeur de l'élément*/
+        border: 0px solid whitesmoke;
+        float: left;
+}
+/* la class pour tout remettre dans le flux */
+.clear{
+    clear: both;
+}
+/* le pied de page */
+footer{
+    height: 267.85px;
+    border: 20px solid whitesmoke;
+}
+}
