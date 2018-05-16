@@ -22,27 +22,32 @@
 .fond_violet{
     background: rgb(78, 44, 105)
 }
-
+.fond_linen{
+    background-color: linen;
+}
 /* les styles de la page */
 
 body{
     margin:auto; /* margin c'est la marge extérieur d'un élément */
-    background-color:rgb(236, 0, 0);
+    background-color: rgb(229, 200, 100)
+;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 div{
-    background-color: darkgreen;
+    background-color:;
 }
 nav{
     font-size: xx-large;
+    background-color: aquamarine;
 }
 footer{
     background-color: blue;
 }
 #main {
       font-family: 'Times New Roman', Times, serif;
-    width: 700px;
+    width: 680px;
     float: right;
+    padding: 0px;
 }
 /* l'emballage de toute la page */
 #wrapper{  
@@ -55,7 +60,8 @@ footer{
 
 /* le haut de page */
 header{
-    height: 238px;
+    background: url(../img/panorama.jpg) center top no-repeat;
+    height: 500px;
     /* hauteur de l'élément */
     border: 3px solid whitesmoke;
 }
@@ -67,6 +73,7 @@ aside
         /* largeur de l'élément*/
         border: 0px solid whitesmoke;
         float: left;
+        padding: 10px; /* marge interne ou rembourage */
 }
 /* la class pour tout remettre dans le flux */
 .clear{
