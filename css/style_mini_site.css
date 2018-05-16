@@ -25,6 +25,9 @@
 .fond_linen{
     background-color: linen;
 }
+.fond_canard{
+    background-color: rgb(194, 191, 26)
+}
 /* les styles de la page */
 
 body{
