@@ -50,15 +50,15 @@
                          <hr>
                          <h2>un petit <em>sondage</em></h2>
                          <p><small>Un autre formulaire</small></p>
-                         <form>
+                         <form action="toto.php" method="POST">
                             <fieldset>
                                 <legend> A propos du CSS :</legend> 
                                <p>savez vous ce que veut dire<strong> CSS ?</strong></p>
                                <!-- des boutons radio le premier est coché -->
                                <input type="radio" name="CSS" value="oui" checked>
-                               <label for="oui">OUI</label>
+                               <label for="oui" class="inline">OUI</label>
                                <input type="radio" name="CSS" value="non">
-                               <label for="non">NON</label>
+                               <label for="non" class="inline">NON</label>
 
                                <label for="utilise">si oui , vous en servez vous? :</label>
                                 <select name="utilise">
