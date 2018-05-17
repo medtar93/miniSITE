@@ -9,65 +9,77 @@
         <!-- la feuille de style externe avec une balise link -->
         <link href="css/style_mini_site.css" rel="stylesheet">
     </head>
-        <body>
+    <body>
            
-             <!-- début de la div principale -->
-            <div id="wrapper">
-                      <!-- en-tête de page ou d'une division ou d'une section -->
-                <header><h1><a href="index.html"></a>Mini site de Tarek</h1> 
-                 </header>
-                 <aside class="fond_bleu_azur"> 
-                        <!-- la navigation de la page -->
-                       <nav>NAVIGATION</nav>
-                       <h1><strong>مرحبا بكم</strong></h1>
-                        <ul>
-                           <li><a href="index.html" title="Minisite : accueil">ACCUEIL</a></li>
-                           <li><a href="photos.html" title="Minisite : photos">PHOTOS</a></li>
-                           <li><a href="tableau.html" title="Minisite :tableau">TABLEAU</a></li>
-                           <li><a href="formulaire.html" title="Minisite : formulaire">FORMULAIRE</a></li>
-                           <li><a href="textes.html" title="Minisite : textes">TEXTES</a></li>
-                           <li><a href="formulaire.html" title="Minisite : formulaire">FORMULAIRES</a></li>
-                        </ul></aside>
-        <div id="main" class="fond_canard">
-                <!-- éviter les balises br car ne peuvent être stylisé -->
-                
-                 <!-- contenu textuel -->
-                        <h2>Mon premier tableau</h2>
-                        <table>
-                            <tr>
-                                <td>n°</td>
-                                <td>Prenom</td>
-                                <td>courriel</td>
-                            </tr>
-                            <tr>
-                                <td>1</td>
-                                <td>Patrick </td>
-                                <td>06 63 74 11 35</td></tr>
-                            <tr>
-                                <td>2</td>
-                                <td>Akbar</td>
-                                <td>07 53 17 58 48</td>
-                            </tr>
-                            <tr>
-                                <td>3</td>
-                                <td>Andrée</td>
-                                <td>06 37 05 53 47</td>
-                            </tr>
-                            <tr>
+        <!-- début de la div principale -->
+        <div id="wrapper">
+            <!-- en-tête de page ou d'une division ou d'une section -->
+            <header><h1><a href="index.html"></a>Mini site de Tarek</h1> 
+            </header>
+                <aside class="fond_bleu_azur"> 
+                    <!-- la navigation de la page -->
+                    <nav>NAVIGATION</nav>
+                    <h1><strong>مرحبا بكم</strong></h1>
+                    <ul>
+                        <li><a href="index.html" title="Minisite : accueil">ACCUEIL</a></li>
+                        <li><a href="photos.html" title="Minisite : photos">PHOTOS</a></li>
+                        <li><a href="tableau.html" title="Minisite :tableau">TABLEAU</a></li>
+                        <li><a href="formulaire.html" title="Minisite : formulaire">FORMULAIRE</a></li>
+                        <li><a href="textes.html" title="Minisite : textes">TEXTES</a></li>
+                        <li><a href="formulaire.html" title="Minisite : formulaire">FORMULAIRES</a></li>
+                    </ul></aside>
+        <div id="main" class="fondjaune">
+            <!-- éviter les balises br car ne peuvent être stylisé -->
+            <!-- contenu textuel -->
+                    <h2>Mon premier tableau</h2>
+                    <table width="80%">
+                    <caption>la liste de la moitié des salariés de Pantin</caption>    
+                    <thead>
+                            
+                        <tr><!-- tr table row une rangée de tableau -->
+                            <th><strong>n°</strong></th> <!-- th table head une cellule d'en tête de colonne -->
+                            <th><strong>Prenom</strong></th>
+                            <th>téléphone</th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <td>dernière ligne</td>
+                            <td>dernière ligne</td>
+                            <td>dernière ligne</td>
+                        </tr>
+                    </tfoot>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Patrick </td>
+                            <td>06 63 74 11 35</td></tr>
+                        <tr class="fond_jaune">
+                            <td>2</td>
+                            <td>Akbar</td>
+                            <td>07 53 17 58 48</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Andrée</td>
+                            <td>06 37 05 53 47</td>
+                        </tr>
+                        <tr class="fond_jaune">
                                 <td>4</td>
                                 <td>Mohamed</td>
                                 <td>06 67 80 55 98</td>
-                            </tr>
-                            <tr>
-                                <td>5</td>
-                                <td>Marina </td>
-                                <td> 06 15 36 03 11</td>
-                            </tr>
-                            <tr>
-                                <td>6</td>
-                                <td>Damien </td>
-                                <td> 06 18 12 25 64</td></tr>
-                        </table>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Marina </td>
+                            <td> 06 15 36 03 11</td>
+                        </tr>
+                        <tr class="fond_jaune">
+                            <td>6</td>
+                            <td>Damien </td>
+                            <td> 06 18 12 25 64</td></tr>
+                        </tbody>
+                    </table>
 
 
         </div><!-- fermeture de la div main  -->
