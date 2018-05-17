@@ -60,7 +60,6 @@ footer{
     margin-left: auto;
     border: 0px solid rgb(11, 171, 211);
 }
-
 /* le haut de page */
 header{
     background: url(../img/panorama.jpg) center top no-repeat;
@@ -72,7 +71,7 @@ header{
 aside
     {   
         width: 300px;
-        height: 313.767px;
+        height: 600px;
         /* largeur de l'élément*/
         border: 0px solid whitesmoke;
         float: left;
