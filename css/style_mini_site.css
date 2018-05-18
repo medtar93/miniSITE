@@ -128,7 +128,7 @@ select{
 /* le tableau */
 table{
     width: 95%;
-   margin: auto;
+    margin: auto;
     border-collapse: collapse; /* fusionne les bordures stylées ci-aprés */
 }
 table, th, td {
