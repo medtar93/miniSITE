@@ -34,16 +34,14 @@
 
 body{
     margin:auto; /* margin c'est la marge extérieur d'un élément */
-    background-color: rgb(229, 200, 100)
-;
+    background: linear-gradient(to right, green, white, red );
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
 }
 div{
     background-color:;
 }
-nav{
-    font-size: xx-large;
-    background-color: aquamarine;
+nav {
+    font-size: xx-large; 
 }
 footer{
     background-color: blue;
@@ -51,24 +49,23 @@ footer{
 #main {
     background: white;
       font-family: 'Times New Roman', Times, serif;
-    width: 680px;
+    width: 880px;
     float: right;
     padding: 0px;
 }
 /* l'emballage de toute la page */
 #wrapper{  
-    width: 1000px;
+    width: 1200px;
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
     border: 0px solid rgb(11, 171, 211);
 }
 /* le haut de page */
-header{
-    background: url(../img/panorama.jpg) center top no-repeat;
-    height: 500px;
+header{ 
+    background: url(../img/panorama.jpg) center top no-repeat , linear-gradient(lightblue,whitesmoke);
+    height: 435px;
     /* hauteur de l'élément */
-    border: 3px solid whitesmoke;
 }
 /* lecôté de la page */
 aside
@@ -86,7 +83,7 @@ aside
 }
 /* le pied de page */
 footer{
-    height: 400px;
+    height: 60px;
     border: 20px solid whitesmoke;
 }
 /* le formulaire sur le CSS */
@@ -152,4 +149,16 @@ a:hover{
 caption{
     caption-side: top;
     text-transform: uppercase;
+}
+/* différents styles de bordure */
+.filetgauche{
+    border-left: 8px solid #e00037;
+}
+.bordurebasse{
+    border-bottom: 8px solid #00726a;
+}
+.cartouche{ /*  un essai de bordure avec des coins arrondis */
+    border: 2px solid orange;
+    border-radius: 100px;
+    padding: 25px ;
 }
