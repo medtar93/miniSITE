@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS document */
+
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-color: #ccff99; /* ou alors #dea */
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+
+}
+#conteneur{
+    width: 770px;
+    margin:0 auto; /* marge automatique qui centre la div aprés l'avoir remonté le plus haut possible dans l'afffichage */
+    border: 2px solid #ab4; /* bordure extérieur */
+    background: #fff;
+    text-align: left
+}

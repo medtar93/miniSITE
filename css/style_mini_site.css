@@ -40,9 +40,6 @@ body{
 div{
     background-color:;
 }
-nav {
-    font-size: xx-large; 
-}
 footer{
     background-color: blue;
 }
@@ -67,6 +64,33 @@ header{
     height: 435px;
     /* hauteur de l'élément */
 }
+header h1{
+    background: white;
+    text-transform: uppercase;
+    width: 20%;
+    text-align: center;
+    margin-left: 10%;
+}
+header h1 a {
+    text-decoration: none;
+    color: #333;
+}
+header h1 a:hover {
+    /* text decorarion underline */
+    background-color: #333;
+    color: white;
+}
+aside nav ul {
+    background-color: chartreuse;
+    list-style-type: square;
+    list-style-image: url(../img/globe_fleche.png)
+}
+article { 
+    background: greenyellow;
+}
+article li {
+    list-style-type: square;
+}
 /* lecôté de la page */
 aside
     {   
@@ -76,6 +100,7 @@ aside
         border: 0px solid whitesmoke;
         float: left;
         padding: 10px; /* marge interne ou rembourage */
+        border-radius: 25% 25% 25% 25%;
 }
 /* la class pour tout remettre dans le flux */
 .clear{
@@ -161,4 +186,41 @@ caption{
     border: 2px solid orange;
     border-radius: 100px;
     padding: 25px ;
+}
+
+/* la navigation et les styles de liens */
+
+nav {
+    background: linear-gradient(yellow,blue);
+    margin-block-start: 26%;
+    border-radius: 0% 50% 0% 0%;
+}
+a {
+    text-decoration: none;
+}
+
+
+/* ! les pseudos class */
+
+/* quand le lien n'est pas visité */
+a:link {
+    color: orange;
+}
+/* quand le lien a été visité */
+a:visited {
+    color: red
+}
+/* au sulvol de la souris */
+a:hover {
+    color: white;
+    background: orange;
+}
+/* ici pour l'astuce au survol dans la page texte */
+#survol p{
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+#survol:hover p {
+    display: block;
 }

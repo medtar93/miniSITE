@@ -7,7 +7,14 @@
         <title>Titre de la page</title>
         <!-- la feuille de style externe avec une balise link -->
         <link href="css/style_mini_site.css" rel="stylesheet">
+    <style>
+         #nchild tr:nth-child(2n){
+            background: yellow;
+            color: #fff;
+        }
+    </style>
     </head>
+
     <body>
         <!-- début de la div principale -->
         <div id="wrapper">
@@ -17,7 +24,8 @@
             </header>
             <aside class="fond_bleu_azur"> 
             <!-- la navigation de la page -->
-                <nav>NAVIGATION
+                <nav>
+                    NAVIGATION
                     <h1><strong>مرحبا بكم</strong></h1>
                     <ul>
                         <li><a href="index.html" title="Minisite : accueil">ACCUEIL</a></li>
@@ -33,16 +41,15 @@
                                     <li><a href="cubitus1.html" title="le cubitus 1">cubitus1</a></li>
                                     <li><a href="cubitus2.html" title="le cubitus 2">cubitus2</a></li>
                             </ul>
-                </ul>
-                    
-
                 </nav>
+                
+
             </aside>
-            <div id="main" class="fondjaune">
+            <div id="main">
                 <!-- éviter les balises br car ne peuvent être stylisé -->
                 <!-- contenu textuel -->
                 <h2>Mon premier tableau</h2>
-                <table>
+                <table id="nchild" >
                     <caption>la liste de la moitié des salariés de Pantin</caption>    
                     <thead>
                         <tr><!-- tr table row une rangée de tableau -->
@@ -50,7 +57,7 @@
                             <th><strong>Prenom</strong></th>
                             <th>téléphone</th>
                         </tr>
-                    </thead>
+                    </thead >
                     <tfoot>
                         <tr>
                             <td>dernière ligne</td>
@@ -63,7 +70,7 @@
                             <td>1</td>
                             <td>Patrick </td>
                             <td>06 63 74 11 35</td></tr>
-                        <tr class="fond_jaune">
+                        <t>
                             <td>2</td>
                             <td>Akbar</td>
                             <td>07 53 17 58 48</td>
@@ -73,7 +80,7 @@
                             <td>Andrée</td>
                             <td>06 37 05 53 47</td>
                         </tr>
-                        <tr class="fond_jaune">
+                        <tr>
                                 <td>4</td>
                                 <td>Mohamed</td>
                                 <td>06 67 80 55 98</td>
@@ -83,7 +90,7 @@
                             <td>Marina </td>
                             <td> 06 15 36 03 11</td>
                         </tr>
-                        <tr class="fond_jaune">
+                        <tr>
                             <td>6</td>
                             <td>Damien </td>
                             <td> 06 18 12 25 64</td>

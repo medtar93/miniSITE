@@ -8,6 +8,19 @@
         <title>Titre de la page</title>
         <!-- la feuille de style externe avec une balise link -->
         <link href="css/style_mini_site.css" rel="stylesheet">
+        <style>
+        
+        /* les pseudo-class et :first-child */
+        article li:first-child{
+            background: red;
+        }
+        article li:nth-child(3){
+            background:olive;
+        }
+        #nchild:nth-child(2n){
+            background:yellow;
+        }
+        </style>
     </head>
         <body>
            
@@ -62,6 +75,35 @@
                                 <hr>
                       
                     </article>
+                    <article id="nchild">
+                        <h3>une astuce avec un hover</h3>
+                            <div id="survol">
+                                survolez cette ligne pour le faire apparaitre 
+                                <p>Coucou je suis là</p>
+                            </div>
+                    </article>
+                    <article>
+                        <h2>liste de chose à faire ce soir</h2>
+                        <ul>
+                            <li>acheter de la zlabiya avant de rentrer</li>
+                            <li>Appeler 
+                                <ul>
+                                    <li>h.....</li>
+                                    <li>nordine 4000</li>
+                                    <li>rafik et yanis</li>
+                                </ul>
+                            <li>terminer le carroussel</li>
+                            <li>faire les articles des dernieres vacs</li>
+                        </ul>
+                    </article>
+                    <article>
+                            <h2>liste de chose à faire demain</h2>
+                            <ol>
+                                <li>reenvoyer le chrome cast</li>
+                                <li>préparer des sujet de math pour les 3èmes</li>
+                                <li>discuter avec M.S</li>
+                            </ol>
+                        </article>
         </div><!-- fermeture de la div main  -->
                  <div class="clear"></div> <!-- cette div permet de reprendre le flux normal -->
                  <footer>pied de la page</footer> <!-- le pied de page -->
