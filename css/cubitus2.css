@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS document */
+body {
+    margin: 0 auto;
+    background: white;
+}
+
+/* pour alterner les couleurs des div */
+.rose {
+    background-color: #D899A2;
+    height: 10em;
+    width: 10em;
+    border: 0.3em solid black;
+    float: left;
+    border-radius: 10% 5% 30% 0%;
+    text-align: center;
+
+}
+
+.bleu {
+    background-color: rgb(91, 215, 231);
+    height: 10em;
+    width: 10em;
+    border: 0.3em solid black;
+    float: left;
+    border-radius: 30% 0% 30% 0;
+    text-align: center;
+}
+
+.vert {
+    background-color: green;
+    height: 10em;
+    width: 10em;
+    border: 0.3em solid black;
+    float: left;
+    border-radius: 10% 20% 30% 30%;
+    text-align: center;
+}
+   
+ .pistache {
+    background-color: rgb(139, 255, 197);
+    height: 10em;
+    width: 10em;
+    border: 0.3em solid black;
+    float: left;
+    border-radius: 100%;
+    text-align: center; 
+}
+.blanc { background-color: white;
+    height: 10em;
+    width: 10em;
+    border: 0% white;
+    float: left;
+    border-radius: 100%;
+    text-align: center;
+
+}
+
+.rouge {
+    background-color: red;
+    height: 10em;
+    width: 10em;
+    border: 0.3em solid black;
+    float: left;
+    border-radius: 20% 30% 20% 30%;
+    text-align: center;
+}
+.clear {
+    clear: both;
+}
+div {
+    margin: 4px;
+}

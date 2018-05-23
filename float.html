@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+        
+    <head>    
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <title>minisite : le float</title>
+        <style> /* les styles pour l'exo du float */
+        body{
+            margin: 0 auto;
+            background-color: #fef9e7;
+        }
+        p{ 
+            border: 2px solid orange;
+            border-radius: 100px;
+            padding: 25px ;
+            background-color: #f7dc6f;
+            width: 50%;
+        }
+        /* toutes les div de la page */
+        div{ 
+            width: 90%;
+            margin:0 auto;
+            background-color: #f7dc6f ;
+        }
+        .bordure{
+            border: 5px;
+        }
+        /* la classe boite que l'on va faire flotter */
+        .boite{ 
+            height: 11vh;
+            width: 18vh ; 
+            padding: 5vh;
+            margin: 2vh;
+            border: 5px double #b7950b ;
+            background: url(img/siamois.jpg);
+            background-repeat: no-repeat;
+            float: left;
+        }
+        .boite:hover{
+            margin-top:4vh;
+        }
+        /* clear both permet de retrouver le flux normal */
+        .clear{
+            clear: both;
+        }
+        </style>
+    </head>
+        <body>
+            <h1>Le float : introduction aux types de balises, block et inline</h1>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim, doloremque earum? Atque earum molestias omnis ipsum, quos, ex aliquam asperiores accusamus vero deleniti qui! Blanditiis fugiat voluptatem porro ratione distinctio.</p>
+                <ul>
+                    <li>les elements de types <strong>block</strong> <em>bloc</em>(h1, p, ul,ol, table, blockquote, etc.)</li>
+                    <li>les elements type <strong>inline</strong> <em>en-ligne</em> (a, img, stron,abbr,etc.)</li>
+                </ul>
+                <hr>
+                <div>
+                    <div class="boite">1</div>
+                    <div class="boite">2</div>
+                    <div class="boite">3</div>
+                    <div class="boite">4</div>
+                    <div class="boite">5</div>
+                    <div class="boite">6</div>
+                    <div class="boite">7</div>
+                    <div class="boite">8</div>
+                </div>
+                <hr class="clear">
+                <p class="clear">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus blanditiis quisquam maxime perferendis debitis distinctio temporibus eaque rem molestias quasi suscipit dolorum fugiat, similique dolorem ut unde animi saepe labore.</p>
+                <hr>
+
+
+
+          
+        </body>
+</html>
+
+              
