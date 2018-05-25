@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Zoning Trombi</title>
+    <style>
+        #conteneur {
+            width: 1000px;
+            margin: 0 auto;
+            background: rgba(63, 235, 235, 0.658);
+        }
+
+        .entete {
+            color: #fff;
+            height: 250px;
+            text-align: center;
+            background: #111111;
+            font-family: fantasy;
+        }
+
+        header h1 {
+            border: 1px dashed rgb(43, 65, 85);
+            color: white;
+        
+        }
+
+        nav {
+            height: 50px;
+            background: #d1df0d;
+            border: 1px solid rgba(27, 54, 25, 0.637);
+            text-align: center;
+            font-size: 1em;
+            font-weight: bold;
+        }
+
+        .grandCarre {
+            float: left; 
+            width: 500px;
+            height: 500px;
+        }
+
+        .image {
+            background: url('img/imagefoot/algflag.jpg') no-repeat center;
+            background-size: cover; /*  permet de couvrir tous l'espace de l'élément parent, peut avoir comme valeurs: cover, contain ou valeur en px */
+        }
+
+        .carreMoyen {
+            float: left;
+            width: 246px;
+            height: 246px;
+            background-size: cover;
+            background: url(img/imagefoot/lacen.jpg) no-repeat center;
+        }
+
+        .carreMini {
+            float: left;
+            width: 120px;
+            height: 120px;
+            border: 1px solid #000;
+            background: url('img/imagefoot/algflag2.jpg')
+        }
+        footer {
+            color: black;
+        }
+        /* .rectangle {
+            float: left;
+            width: 496px;
+            height: 165px;
+            background: url('img/panorama.jpg') no-repeat center;
+        } */
+    </style>
+</head>
+<body>
+    <div id="conteneur">
+        <header class="entete"> <h1>Trombi</h1> </header>
+    <nav><p>NAV</p></nav>
+
+    <section class="section">
+            <div class="grandCarre image"></div> <!-- Carré un -->
+            
+            <div class="grandCarre">
+                <div class="carreMoyen"></div>
+                <div class="carreMoyen"></div>
+                <div class="carreMoyen"></div>
+                <div class="carreMoyen"></div>
+            </div> <!-- fin carré deux -->
+
+            <div class="grandCarre">
+                    <div class="carreMoyen">
+                        <div class="carreMini"></div>
+                        <div class="carreMini"></div>
+                        <div class="carreMini"></div>
+                        <div class="carreMini"></div>
+                    </div> <!-- Fin carré moyen -->
+                    <div class="carreMoyen">
+                        <div class="carreMini"></div>
+                        <div class="carreMini"></div>
+                        <div class="carreMini"></div>
+                        <div class="carreMini"></div>
+                    </div>
+                    <div class="carreMoyen">
+                        <div class="carreMini"></div>
+                        <div class="carreMini"></div>
+                        <div class="carreMini"></div>
+                        <div class="carreMini"></div>
+                    </div>
+                    <div class="carreMoyen">
+                        <div class="carreMini"></div>
+                        <div class="carreMini"></div>
+                        <div class="carreMini"></div>
+                        <div class="carreMini"></div>
+                    </div><!-- Fin carreMoyen-->
+             </div>
+                <div class="grandCarre"><!-- grandCarre quatre -->
+                    <div class="carreMoyen"></div>
+                    <div class="carreMoyen"></div>
+                    <div class="carreMoyen"></div>
+                </div>
+    </section>
+    <div class="clear"></div>
+    <footer><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur veritatis beatae error ratione, id impedit tempore adipisci tempora et atque minus repudiandae corporis praesentium, reprehenderit non consequuntur, animi modi? Sed?</p><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et qui, fuga repellat eligendi corrupti, nihil incidunt quibusdam facere atque ipsa provident aliquam a est consequuntur officiis? Eveniet mollitia culpa vel?</p></footer>
+</div> <!-- fin conteneur -->
+</body>
+</html>

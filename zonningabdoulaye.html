@@ -1,62 +1,54 @@
 <!DOCTYPE html>
 <html lang="fr">
-        
     <head>    
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
        <style>
            body{
-              background-color: pink;
+              background-color:olive;
                 color: #333;
             }
-
             #conteneur{
                 width: 1000px;
                 margin: 0 auto;
                 border: 2px solid #fff;
-
             }
 
             header{
                 height: 100px;
-                background: linear-gradient(#4a1a2c, pink) ;
-               
+                background:#3F5844;
             }
-
             nav{
-                background: linear-gradient(pink,#4a1a2c) ;
+                background: #24582F ;
                 height: 30px;
             }
-            
             footer{
-                background: linear-gradient(#4a1a2c, pink) ;
+                background:#3F5844;
                 height: 100px;
             }
-            .a, .b, .c, .d{
+            .grandcarre{
                 margin: 0 auto;
-                width: 496px;
-                height: 496px;
-                border: 2px solid #000;
+                width: 500px;
+                height: 500px;
                 float: left;
             }
-            .e, .f, .g, .h{
+            .carremoyen{
                 margin: 0 auto;
-                width: 244px;
-                height: 244px;
-                border: 2px solid black;
+                width: 250px;
+                height: 250px;
                 float: left;
             }
-            .e{
-                background: radial-gradient(#fff, lightcoral) ;
+            .corail{
+                background: radial-gradient(#fff, lightcoral);
             }
-            .f{
-                background: radial-gradient( lightblue, #fff)
+            .bleu{
+                background: radial-gradient( lightblue, #fff);
             }
-            .g{
+            .vert{
                 background: radial-gradient(lightgreen, #fff);
             }
-            .h{
+            .saumon{
                 background: radial-gradient(#fff, lightsalmon);
             }
             .clear{
@@ -65,114 +57,85 @@
             header, footer, div {
                 text-align: center;
                 color: #fff;
-
             }
-            .e1, .f1, .g1, .hp{
+            .petitcarre{
                 margin: 0 auto;
-                width: 118px;
-                height: 118px;
-                border: 1px solid black;
+                width: 125px;
+                height: 125px;
                 float: left;
-                border-collapse: collapse;
             }
-            .e2, .f2, .g2, .hq{
+            .minicarre{
                 margin: 0 auto;
-                width: 56px;
-                height: 56px;
-                border: 1px solid black;
+                width: 60px;
+                height: 60px;
                 float: left;
-                border-collapse: collapse;
             }
-
-           
         </style>
-        
     </head>
     <body>
             <div id="conteneur">
                 <header>le haut de page</header>
                 <nav>Le menu</nav>
                 <section>
-                    <!-- 6 div dans cette section -->
-                    <div class="a">
-                            <div class="e">
-                                    <div class="e1">
-                                            <div class="e2">a</div>
-                                            <div class="f2">b</div>
-                                            <div class="g2">c</div>
-                                            <div class="hq">d</div>
-                                    </div>
-                                    <div class="f1">
-                                            <div class="e2">a</div>
-                                            <div class="f2">b</div>
-                                            <div class="g2">c</div>
-                                            <div class="hq">d</div>
-                                    </div>
-                                    <div class="g1">
-                                            <div class="e2">a</div>
-                                            <div class="f2">b</div>
-                                            <div class="g2">c</div>
-                                            <div class="hq">d</div>
-                                    </div>
-                                    <div class="hp">
-                                            <div class="e2">a</div>
-                                            <div class="f2">b</div>
-                                            <div class="g2">c</div>
-                                            <div class="hq">d</div>
-                                    </div>
+                    <div class="grandcarre">
+                            <div class="carremoyen" >
+                                <div class="petitcarre bleu">
+                                        <div class="minicarre"> <img src="img/logos club/arsenal.png" alt=""></div>
+                                        <div class="minicarre"> <img src="img/logos club/manC.png" alt=""></div>
+                                        <div class="minicarre"> <img src="img/logos club/MU.png" alt=""></div>
+                                        <div class="minicarre"> <img src="img/logos club/mca.png" alt=""></div>
+                                </div>
+                                <div class="petitcarre vert">
+                                        <div class="minicarre">a</div>
+                                        <div class="minicarre">b</div>
+                                        <div class="minicarre">c</div>
+                                        <div class="minicarre">d</div>
+                                </div>
+                                <div class="petitcarre corail">
+                                        <div class="minicarre">a</div>
+                                        <div class="minicarre">b</div>
+                                        <div class="minicarre">c</div>
+                                        <div class="minicarre">d</div>
+                                </div>
+                                <div class="petitcarre saumon">
+                                        <div class="minicarre"><img src="img/logos club/cabba.jpg" alt="cabba"></div>
+                                        <div class="minicarre"><img src="img/logos club/asm.png" alt="asm"></div>
+                                        <div class="minicarre"><img src="img/logos club/fcb.png" alt="fcb"></div>
+                                        <div class="minicarre"><img src="img/logos club/real.png" alt="real"></div>
+                                </div>
                                     
                             </div>
-                            <div class="e">
-                                    <div class="e1"></div>
-                                    <div class="f1">2</div>
-                                    <div class="g1">3</div>
-                                    <div class="hp">4</div>
-                                    
+                            <div class="carremoyen"><img src="img/imagefoot/lacen.jpg" alt="lacen">
+
+                                    <div class="petitcarre corail">1</div>
+                                    <div class="petitcarre bleu">2</div>
+                                    <div class="petitcarre vert">3</div>
+                                    <div class="petitcarre saumon">4</div>
                             </div>
-                            
-                            <div class="g">
-                                    <div class="e1">1</div>
-                                    <div class="f1">2</div>
-                                    
-                                    <div class="g1">3</div>
-                                    <div class="hp">4</div>
-                                    
+                            <div class="carremoyen vert"><img src="img/imagefoot/ghoulam.jpg" alt="ghoulam">
+                                <div class="petitcarre corail">1</div>
+                                <div class="petitcarre bleu">2</div>
+                                <div class="petitcarre vert">3</div>
+                                <div class="petitcarre saumon">4</div>
                             </div>
-                            <div class="h">
-                                    <div class="e1">1</div>
-                                    <div class="f1">2</div>
-                                    
-                                    <div class="g1">3</div>
-                                    <div class="hp">4</div>
-                                    
+                            <div class="carremoyen" ><img src="img/imagefoot/haliche.jpg" alt="haliche">
+                                <div class="petitcarre corail">1</div>
+                                <div class="petitcarre bleu">2</div>
+                                <div class="petitcarre vert">3</div>
+                                <div class="petitcarre saumon">4</div>>
                             </div>
-                            
                     </div>
-                    <div class="b">  
-                            <div class="e">5</div>
-                            <div class="f">6</div>
-                            
-                            <div class="g">7</div>
-                            <div class="h">8</div>
-                                                  
+                    <div class="grandcarre"><img src="img/imagefoot/algflag.jpg" alt="ALGERIE">
+                            <div class="carremoyen">5</div>
+                            <div class="carremoyen">6</div>
+                            <div class="carremoyen">7</div>
+                            <div class="carremoyen">8</div>
                     </div>
-                    <div class="clear">
-                    </div>
-                    <div class="c">
-                            <div class="e">9</div>
-                            <div class="f">10</div>
-                            
-                            <div class="g">11</div>
-                            <div class="h">12</div>
-                            
-                    </div>
-                    <div class="d">
-                            <div class="e">13</div>
-                            <div class="f">14</div>
-                            
-                            <div class="g">15</div>
-                            <div class="h">16</div>
-                            
+                    <div class="grandcarre">
+                            <div class="carremoyen">9</div>
+                            <div class="carremoyen">10</div>
+                            <div class="carremoyen">11</div>
+                            <div class="carremoyen">12</div>
                     </div>
                     <div class="clear"></div>
                 </section>
