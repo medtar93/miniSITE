@@ -6,18 +6,23 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1"> 
         <title>MiniSite des photos</title>
+        <!-- feuille de style font awesome  -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <!-- la feuille de style externe avec une balise link -->
         <link href="css/style_mini_site.css" rel="stylesheet">
     </head>
         <body>
            
              <!-- début de la div principale -->
-            <div id="wrapper">
+            <div id="wrapper"> 
+           
+            
                       <!-- en-tête de page ou d'une division ou d'une section -->
-                <header><h1><a href="index.html"></a>Mini site de Tarek</h1> 
+                <header><h1><a href="index.html"></a>Mini site de Tarek <i class="fab fa-500px"></i></h1> 
                  </header>
                  <aside class="fond_vert"> 
                         <!-- la navigation de la page -->
+                        
                        <nav>NAVIGATION</nav>
                        <h1><strong>مرحبا بكم</strong></h1>
                         <ul>
@@ -35,20 +40,33 @@
                                 </ul>
                          </ul></aside>
         <div id="main" class="fond_linen">
+                    <p class="droite">
+                        <a id="haut_de_page"></a>
+                        <a href="#bas_de_page" title="le bas de la page"><i class="far fa-arrow-alt-circle-down"></i></a>
+                    </p>
                 <!-- éviter les balises br car ne peuvent être stylisé -->
                 
                  <!-- contenu textuel -->
                      <article>
                          <h1>Image retouchée via GIMP2.8 : la page des photos</h1>
-                        
+                         <h2>Cap carbon:Les Aiguades</h2>
+                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Les_Aiguades.jpg/1280px-Les_Aiguades.jpg" alt="cap carbon" width="50%" height="50%">
                          <h2>LES FERRARIS EN COULEURS </h2>
-                         <img src="img/ferrarri_bleu.jpg" alt="ferari bleu"  width=50%" height="50%"><br>
+                         <img src="img/ferrarri_bleu.jpg" alt="ferari bleu"  width="50%" height="50%"><br>
+                         <img src="img/ferrarri_rouge.jpg" alt="ferrarri bleu"  width="50%" height="50%"><br>
+                         <img src="img/zizour9.jpg" alt="zidane ronaldo"  width="50%" height="50%"><br>
+                         <img src="img/benkherouf_minisite_san_gimignano.jpg" alt="ferrarri bleu"  width="50%" height="50%"><br>
                          <img src="img/ferrarri_rouge.jpg" alt="ferrarri bleu"  width="50%" height="50%"><br>
                         </article>
+                        <p class="droite">
+                                <a id="bas_de_page"></a>
+                                <a href="#haut_de_page" title="le haut de la page"><i class="far fa-arrow-alt-circle-up"></i></a>
+                           </p>
         </div><!-- fermeture de la div main  -->
                  <div class="clear"></div> <!-- cette div permet de reprendre le flux normal -->
                  <footer>pied de la page</footer> <!-- le pied de page -->
-             </div><!-- fermeture wrapper -->
+                 </div><!-- fermeture wrapper -->
+             
         </body>
 </html>
 

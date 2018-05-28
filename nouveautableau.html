@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>nouveau tableau</title>
+    <style>
+        body { 
+            background: -moz-repeating-radial-gradient(#299,#ccc);
+
+        }
+        table {
+            /* background: #ccc; */
+            width: 95%;
+            margin: auto;
+            border: 1px solid #000;
+            border-collapse: collapse;
+        }
+        table, td {
+            border: 1px solid #000;
+        }
+        th, td {
+            border: 1px solid #000;
+            padding: 5px;
+        }
+        th {
+            background:white;
+        }
+        tr:hover {
+            background:yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Un tableau avec des row fusionées</h1>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima nihil at qui, libero laborum ipsa, corrupti quam iure voluptas, explicabo odit blanditiis excepturi. Commodi cumque nesciunt modi fugit animi odio!
+    <table>
+        <tr>
+            <th><strong>Nom :</strong></th> 
+            <td>André Bourvil</td>
+        </tr>
+        <tr>
+            <th rowspan="2"><strong>Téléphone :</strong></th>
+            <td>Passy 78 54</td>
+        </tr>
+        <tr>
+             <td>Camenbert78 55</td>
+        </tr>
+    </table>
+</body>
+</html>
